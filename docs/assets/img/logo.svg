@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="FDE Field Program">
+  <rect x="2" y="2" width="44" height="44" rx="11" fill="#0f5257"/>
+  <circle cx="24" cy="24" r="12.5" fill="none" stroke="#f6f1e9" stroke-width="3"/>
+  <circle cx="24" cy="24" r="4" fill="#e8833a"/>
+  <path d="M24 5.5v7M24 35.5v7M5.5 24h7M35.5 24h7" stroke="#f6f1e9" stroke-width="3" stroke-linecap="round"/>
+</svg>

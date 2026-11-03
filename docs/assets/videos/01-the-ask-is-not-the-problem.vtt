@@ -1,0 +1,76 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:05.500
+Mission 1. Before you build anything, find out what's really going on.
+
+00:00:05.500 --> 00:00:10.500
+Meet Dana, VP of Operations at Ridgeway Medical Supply. Your new client.
+
+00:00:10.500 --> 00:00:17.000
+She knows what she wants: an AI chatbot. And she says 94% of orders are on time.
+
+00:00:17.000 --> 00:00:24.000
+Then Renee, who runs support, messages you. She says customers are furious about late orders.
+
+00:00:24.000 --> 00:00:30.500
+Both can't be fully right. Your first job is to find out which, before writing a single line of code.
+
+00:00:30.500 --> 00:00:36.500
+Lesson one: the ask is not the problem. A chatbot is a solution Dana imagined.
+
+00:00:36.500 --> 00:00:42.500
+Ask: if this worked perfectly, what would be different? Fewer calls.
+
+00:00:42.500 --> 00:00:48.500
+Why do customers call? Because orders are late, and nobody warned them.
+
+00:00:48.500 --> 00:00:56.000
+And what does that cost? Money, and hospitals walking away. That's the real problem.
+
+00:00:56.000 --> 00:01:01.500
+An FDE wears three hats. The engineer asks: can we actually build this, here?
+
+00:01:01.500 --> 00:01:07.000
+The consultant asks: is this the right problem, and who has to say yes?
+
+00:01:07.000 --> 00:01:13.000
+And the product scout asks: what should we take back to our own product?
+
+00:01:13.000 --> 00:01:19.000
+Next, map the people. Who can fund or stop this? Whose day does it change?
+
+00:01:19.000 --> 00:01:26.000
+And notice who's missing. Boise has been rough since summer, and nobody invited its manager.
+
+00:01:26.000 --> 00:01:31.500
+Now the trap. Dana's 94% measures when orders leave the warehouse.
+
+00:01:31.500 --> 00:01:38.500
+Customers feel when orders arrive. That number lives in the carrier data, and you'll calculate it.
+
+00:01:38.500 --> 00:01:45.500
+Always ask how a number is calculated. Real data has the same trap; you'll find it in the lab.
+
+00:01:45.500 --> 00:01:51.000
+Then decompose. Step one: clarify the goal, and what success looks like.
+
+00:01:51.000 --> 00:01:56.500
+Two: who wins, who loses, who decides, and how it's measured today.
+
+00:01:56.500 --> 00:02:02.000
+Three: the inputs. What data exists, who owns it, and how messy it is.
+
+00:02:02.000 --> 00:02:07.500
+Four: break it into pieces, and tackle the riskiest assumption first.
+
+00:02:07.500 --> 00:02:13.000
+Five: the walking skeleton. The thinnest version that proves value in days.
+
+00:02:13.000 --> 00:02:19.500
+The classic mistake, in interviews and on the job: jumping to step five first.
+
+00:02:19.500 --> 00:02:27.500
+Your mission: check the numbers, interview Dana, and write a scope she'll sign. Your AI tutor is ready.
+
+00:02:27.500 --> 00:02:32.000
+See you on the kickoff call.

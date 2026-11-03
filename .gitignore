@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+*.duckdb
+*.duckdb.wal
+.DS_Store
+site/
+PROGRESS.md
+ridgeway/data/raw/
+.tmp_dl/
+videos/**/build/
+videos/**/node_modules/
+
+**/submission/.checks

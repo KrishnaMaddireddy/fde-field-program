@@ -1,0 +1,11 @@
+{
+  "_note": "SPOILER-ish: hints the checker shows after a wrong answer. Kept out of tools/fde.py so learners don't read them up front.",
+  "shipped_within_1_business_day_pct": "Look at your denominator and which ship date you use. And are you reading every month's file the same way?",
+  "order_status_ticket_share_pct": "Count every ticket in the file, and match the category label exactly.",
+  "orders_with_backorder_line_pct": "This is per order, not per line. Check how each export writes the flag, and which lines belong in the count.",
+  "scms_on_or_before_scheduled_pct": "Compare 'Delivered to Client Date' with 'Scheduled Delivery Date' on every row. Check your date parsing.",
+  "scms_delivered_exactly_on_scheduled_pct": "Same two columns, equal dates only.",
+  "delivered_on_time_pct": "Check each delivery source on its own first: how many orders can you match, and does each source's date mean what you think?",
+  "boise_delivered_on_time_pct": "Get the all-warehouse number right first, then filter.",
+  "tier1_late_credit_usd_6mo": "Which orders count, and what is an order's value? Tier comes from the customer list."
+}

@@ -1,0 +1,13 @@
+{
+  "_instructions": "Copy this file to submission/answers.json and fill in numbers (percentages as 0-100, dollars as plain numbers). Leave a value null if you skip it. Then run: python3 tools/fde.py check 01",
+
+  "shipped_within_1_business_day_pct": null,
+  "order_status_ticket_share_pct": null,
+  "orders_with_backorder_line_pct": null,
+  "scms_on_or_before_scheduled_pct": null,
+  "scms_delivered_exactly_on_scheduled_pct": null,
+
+  "delivered_on_time_pct": null,
+  "boise_delivered_on_time_pct": null,
+  "tier1_late_credit_usd_6mo": null
+}

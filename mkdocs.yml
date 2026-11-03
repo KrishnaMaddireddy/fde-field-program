@@ -1,0 +1,75 @@
+site_name: FDE Field Program
+site_description: Learn to be a Forward Deployed Engineer by running one real-feeling client engagement, with any AI agent as your tutor.
+site_author: Krish and contributors
+site_url: https://krishnamaddireddy.github.io/fde-field-program/
+repo_url: https://github.com/KrishnaMaddireddy/fde-field-program
+repo_name: fde-field-program
+edit_uri: edit/main/docs/
+copyright: Content CC BY 4.0 · Code MIT · Ridgeway Medical Supply is fictional
+
+theme:
+  name: material
+  logo: assets/img/logo.svg
+  favicon: assets/img/logo.svg
+  font:
+    text: Inter
+    code: JetBrains Mono
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.indexes
+    - content.code.copy
+    - content.tabs.link
+    - search.highlight
+    - toc.follow
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - Start here:
+      - Getting started: getting-started.md
+      - Learn with an AI tutor: ai-tutor.md
+      - Meet Ridgeway: story.md
+  - Modules:
+      - modules/index.md
+      - "1 · Discovery": modules/01-discovery.md
+      - "2 · Data integration": modules/02-data.md
+  - Real data: real-data.md
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark

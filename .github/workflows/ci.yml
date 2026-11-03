@@ -1,0 +1,49 @@
+name: CI and website
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Data generator is deterministic
+        run: |
+          python3 ridgeway/data/generate.py
+          md5sum ridgeway/data/raw/erp/*.csv ridgeway/data/raw/support/tickets.csv > /tmp/a.md5
+          python3 ridgeway/data/generate.py
+          md5sum -c /tmp/a.md5
+      - name: Setup check and reference solutions run
+        run: |
+          python3 tools/fde.py doctor
+          python3 solutions/01-discovery/reference.py
+          python3 solutions/01-discovery/sanity_checks_pandas.py
+      - name: Website builds with no warnings
+        run: mkdocs build --strict
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name == 'push'
+        with:
+          path: site
+
+  deploy:
+    if: github.event_name == 'push'
+    needs: check
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
